@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WPFDemo
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// ExpenseReportPage.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class ExpenseReportPage : Page
     {
-        public MainWindow()
+        public ExpenseReportPage()
         {
             InitializeComponent();
         }

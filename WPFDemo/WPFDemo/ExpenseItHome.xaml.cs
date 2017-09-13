@@ -15,13 +15,19 @@ using System.Windows.Shapes;
 namespace WPFDemo
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// ExpenseItHome.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class ExpenseItHome : Page
     {
-        public MainWindow()
+        public ExpenseItHome()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ExpenseReportPage expenseReportPage = new ExpenseReportPage();
+            this.NavigationService.Navigate(expenseReportPage);
         }
     }
 }
