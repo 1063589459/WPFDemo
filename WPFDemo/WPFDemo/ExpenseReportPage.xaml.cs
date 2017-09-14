@@ -23,5 +23,11 @@ namespace WPFDemo
         {
             InitializeComponent();
         }
+
+        public ExpenseReportPage(object data)
+            : this()
+        {
+            this.DataContext = data;
+        }
     }
 }
